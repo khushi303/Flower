@@ -67,6 +67,18 @@
     background: linear-gradient(to bottom, yellow, blue, gray, green);
 }
 
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.mask1 {
+    -webkit-mask-image: url(../images/k3m.png);
+    mask-image: url(../images/k3m.png);
+    -webkit-mask-repeat: no-repeat;
+    width: 100%;
+    mask-repeat: no-repeat;
+}
+
 @keyframes yourmove {
     0% {
         top: 0px;
