@@ -108,20 +108,20 @@
     }
 
     25% {
-        top: 300px;
+        top: 250px;
         left: 0px;
         background: linear-gradient(to bottom, green, yellow);
     }
 
     50% {
-        top: 300px;
-        left: 300px;
+        top: 250px;
+        left: 250px;
         background: linear-gradient(to left, gray, yellow);
     }
 
     75% {
         top: 0px;
-        left: 300px;
+        left: 250px;
         background: linear-gradient(to bottom, blue, white);
     }
 
