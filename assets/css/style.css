@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.red-box {
+    width: 200px;
+    margin-left: 30px;
+    height: 200px;
+    background: linear-gradient(to bottom, red, yellow);
+    border-radius: 15px 45px 65px 85px;
+    animation: mymove 5s infinite;
+    position: relative;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.blue-box {
+    width: 500px;
+    margin-left: 30px;
+    height: 200px;
+    background: linear-gradient(to bottom, red, yellow);
+    border-radius: 15px 45px 65px 85px;
+    animation: mymove 5s infinite;
+    position: relative;
+    z-index: 2;
+}
+
+.anime {
+    animation: yourmove 5s infinite;
+    position: relative;
+}
+
+
+.anime1 {
+    animation: hermove 5s infinite;
+    position: relative;
+}
+
+.anime1 {
+    animation: hermove 5s infinite;
+    position: relative;
+}
+
+@keyframes yourmove {
+    0% {
+        top: 0px;
+        left: 0px;
+        color: red;
+    }
+
+    25% {
+        top: 100px;
+        left: 0px;
+        color: blue;
+    }
+
+    50% {
+        top: 100px;
+        left: 100px;
+        color: yellow;
+    }
+
+    75% {
+        top: 0px;
+        left: 100px;
+        color: green;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        color: red;
+    }
+}
+
+@keyframes hermove {
+    0% {
+        background: linear-gradient(to top, red, yellow);
+    }
+
+    25% {
+        background: linear-gradient(to bottom, green, yellow);
+    }
+
+    50% {
+        background: linear-gradient(to left, gray, yellow);
+    }
+
+    75% {
+        background: linear-gradient(to bottom, blue, white);
+    }
+
+    100% {
+        background: linear-gradient(to bottom, green, yellow);
+    }
+}
+
+@keyframes mymove {
+    0% {
+        top: 0px;
+        left: 0px;
+        background: linear-gradient(to top, red, yellow);
+    }
+
+    25% {
+        top: 400px;
+        left: 0px;
+        background: linear-gradient(to bottom, green, yellow);
+    }
+
+    50% {
+        top: 400px;
+        left: 400px;
+        background: linear-gradient(to left, gray, yellow);
+    }
+
+    75% {
+        top: 0px;
+        left: 400px;
+        background: linear-gradient(to bottom, blue, white);
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        background: linear-gradient(to bottom, green, yellow);
+    }
+}
