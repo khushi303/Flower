@@ -58,13 +58,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, yellow, white, blue, gray, green);
+    background: linear-gradient(to bottom right, black, blue);
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, yellow, blue, gray, green);
+    background: linear-gradient(to top right, blue, black);
 }
 
 .object-fit-cover {
@@ -77,6 +77,17 @@
     -webkit-mask-repeat: no-repeat;
     width: 100%;
     mask-repeat: no-repeat;
+}
+
+.cir-bulb {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.bg_yellow {
+    background-color: yellow;
 }
 
 @keyframes yourmove {
