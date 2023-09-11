@@ -109,6 +109,10 @@ var kl = 39
 console.log(hj > 90 || kl < 40)
 //17
 
+document.getElementById("dear").innerHTML = "hello world!"
 
 
+function op() {
+    document.getElementById("red").classList.add("anime1")
+}
 
