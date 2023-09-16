@@ -78,33 +78,61 @@
 // var t = (m * k) - 9;
 // console.log(m * k);
 // console.log(t)
-k = 5
-l = 8
-k--;
-var lk = (k + l)
-console.log(lk);
+// k = 5
+// l = 8
+// k--;
+// var lk = (k + l)
+// console.log(lk);
 //13
-tk = "90"
-jk = "20"
-var tjk = (tk > jk)
-console.log(tjk)
+// tk = "90"
+// jk = "20"
+// var tjk = (tk > jk)
+// console.log(tjk)
 //14
-jm = "14"
-ms = 14
-var jms = (jm == ms)
-var jms = (jm === ms)
-console.log(jms)
+// jm = "14"
+// ms = 14
+// var jms = (jm == ms)
+// var jms = (jm === ms)
+// console.log(jms)
 //15
-rm = 67
-jin = 47
-var rn = (rm += jin)
-console.log((rn) + "<br>" +
-    (rn) * 6);
+// rm = 67
+// jin = 47
+// var rn = (rm += jin)
+// console.log((rn) + "<br>" +
+//     (rn) * 6);
 //16
-var s = 45
-var t = 34
-console.log(s > 0 && t < s)
-var hj = 89
-var kl = 39
-console.log(hj > 90 || kl < 40)
-//17
+// var s = 45
+// var t = 34
+// console.log(s > 0 && t < s)
+// var hj = 89
+// var kl = 39
+// console.log(hj > 90 || kl < 40)
+//scope
+var t = 1; //global scope
+const b = "ghghg"; //block scope
+let c = true; //block scope
+if (true) {
+    var t = 3;
+    let c = true;
+    const b = "ghghg";
+}
+console.log(t);
+console.log(c);
+console.log(b);
+//dom
+document.getElementById("sec-1").classList.add("anime1");
+console.log(document.getElementById("sec-1"));
+console.log(document.getElementsByClassName("anime1"));
+// document.getElementById("hi").style.background = "red";
+
+function fun() {
+    const name = "khushi";
+    var age = 20;
+    function nam() {
+        console.log(name);
+        return
+    }
+    nam();
+    console.log(age);
+}
+fun();
