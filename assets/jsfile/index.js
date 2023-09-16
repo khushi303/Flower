@@ -108,31 +108,61 @@
 // var kl = 39
 // console.log(hj > 90 || kl < 40)
 //scope
-var t = 1; //global scope
-const b = "ghghg"; //block scope
-let c = true; //block scope
-if (true) {
-    var t = 3;
-    let c = true;
-    const b = "ghghg";
-}
-console.log(t);
-console.log(c);
-console.log(b);
+// var t = 1; //global scope
+// const b = "ghghg"; //block scope
+// let c = true; //block scope
+// if (true) {
+//     var t = 3;
+//     let c = true;
+//     const b = "ghghg";
+// }
+// console.log(t);
+// console.log(c);
+// console.log(b);
 //dom
 document.getElementById("sec-1").classList.add("anime1");
 console.log(document.getElementById("sec-1"));
 console.log(document.getElementsByClassName("anime1"));
 // document.getElementById("hi").style.background = "red";
 
-function fun() {
-    const name = "khushi";
-    var age = 20;
-    function nam() {
-        console.log(name);
-        return
-    }
-    nam();
-    console.log(age);
+// function fun() {
+//     const name = "khushi";
+//     var age = 20;
+//     function nam() {
+//         console.log(name);
+//         return
+//     }
+//     nam();
+//     console.log(age);
+// }
+// fun();
+
+//conditional
+let t = 5;
+if (t == 3) {
+    console.log("excuted")
+} else if (t > 6) {
+    console.log("excuted")
+} else {
+    console.log("failed")
 }
-fun();
+
+switch (b = 3) {
+    case 1:
+        console.log("jan")
+        break;
+    case 2:
+        console.log("feb")
+        break;
+    case 3:
+        console.log("march")
+        break;
+    case 4:
+        console.log("april")
+        break;
+    case 5:
+        console.log("may")
+        break;
+    default:
+        break;
+}

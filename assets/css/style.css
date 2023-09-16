@@ -58,13 +58,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom right, black, blue);
+    background: white;
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to top right, blue, black);
+    background: white;
 }
 
 .object-fit-cover {
