@@ -16,14 +16,14 @@
 // console.log(d)
 // console.log(d.b)
 //4
-// var smile = "cake"
-// console.log(smile)
+var smile = "cake"
+console.log(smile)
 //5
-// var is = "is"
-// console.log(is)
+var is = "is"
+console.log(is)
 //6
-// var beautiful = "sweat"
-// console.log(beautiful)
+var beautiful = "sweat"
+console.log(beautiful)
 //7
 // function fun() {
 //     var abc = 123
@@ -120,7 +120,7 @@
 // console.log(c);
 // console.log(b);
 //dom
-// document.getElementById("sec-1").classList.add("anime1");
+document.getElementById("sec-1").classList.add("anime1");
 // console.log(document.getElementById("sec-1"));
 // console.log(document.getElementsByClassName("anime1"));
 // document.getElementById("hi").style.background = "red";
@@ -171,3 +171,15 @@
 function hii() {
     document.getElementById("hi").innerHTML = Date();
 }
+
+let btn = document.getElementById("btn");
+let onbtn = document.getElementById("onbtn");
+let offbtn = document.getElementById("offbtn");
+
+onbtn.addEventListener("click", function () {
+    btn.classList.add("bg_yellow")
+})
+
+offbtn.addEventListener("click", function () {
+    btn.classList.remove("bg_yellow")
+})
