@@ -120,9 +120,9 @@
 // console.log(c);
 // console.log(b);
 //dom
-document.getElementById("sec-1").classList.add("anime1");
-console.log(document.getElementById("sec-1"));
-console.log(document.getElementsByClassName("anime1"));
+// document.getElementById("sec-1").classList.add("anime1");
+// console.log(document.getElementById("sec-1"));
+// console.log(document.getElementsByClassName("anime1"));
 // document.getElementById("hi").style.background = "red";
 
 // function fun() {
@@ -138,31 +138,36 @@ console.log(document.getElementsByClassName("anime1"));
 // fun();
 
 //conditional
-let t = 5;
-if (t == 3) {
-    console.log("excuted")
-} else if (t > 6) {
-    console.log("excuted")
-} else {
-    console.log("failed")
-}
+// let t = 5;
+// if (t == 3) {
+//     console.log("excuted")
+// } else if (t > 6) {
+//     console.log("excuted")
+// } else {
+//     console.log("failed")
+// }
 
-switch (b = 3) {
-    case 1:
-        console.log("jan")
-        break;
-    case 2:
-        console.log("feb")
-        break;
-    case 3:
-        console.log("march")
-        break;
-    case 4:
-        console.log("april")
-        break;
-    case 5:
-        console.log("may")
-        break;
-    default:
-        break;
+// switch (b = 3, b = 4) {
+//     case 1:
+//         console.log("jan")
+//         break;
+//     case 2:
+//         console.log("feb")
+//         break;
+//     case 3:
+//         console.log("march")
+//         break;
+//     case 4:
+//         console.log("april")
+//         break;
+//     case 5:
+//         console.log("may")
+//         break;
+//     default:
+//         console.log("45454545454545454")
+//         break;
+// }
+
+function hii() {
+    document.getElementById("hi").innerHTML = Date();
 }
