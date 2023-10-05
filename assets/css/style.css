@@ -58,7 +58,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: white;
+    background: yellowgreen;
     border-radius: 10px;
 }
 
@@ -102,6 +102,43 @@
     background: yellow;
     border: none;
 }
+
+Result Skip Results Iframe EDIT ON body {
+    background-color: #66D0FF;
+}
+
+.cloud {
+    margin-top: 70px;
+    width: 350px;
+    height: 120px;
+    background: #ECEFF1;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+}
+
+.cloud::after,
+.cloud::before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    background: inherit;
+    border-radius: inherit;
+}
+
+.cloud::after {
+    width: 100px;
+    height: 100px;
+    top: -220px;
+    left: 50px;
+}
+
+.cloud::before {
+    width: 180px;
+    height: 180px;
+    top: -70px;
+    left: 130px;
+}
+
 
 @keyframes yourmove {
     0% {
@@ -187,4 +224,40 @@
         left: 0px;
         background: linear-gradient(to bottom, green, yellow);
     }
+}
+
+input {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 28px;
+    /* outline: 1px solid yellow; */
+    width: 700px;
+}
+
+.my_box {
+    width: 400px;
+    height: 400px;
+    color: black;
+    margin: 24px auto;
+}
+
+.my_box {
+    border-radius: 20px;
+    background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
+    backdrop-filter: blur(31.478700637817383px);
+    position: relative;
+    padding: 5px;
+}
+
+.my_box::after {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    padding: inherit;
+    background: linear-gradient(180deg, #FF5001 0%, #FED710 100%);
+    inset: 0;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    pointer-events: none;
 }
