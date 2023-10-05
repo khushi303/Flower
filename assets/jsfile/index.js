@@ -168,30 +168,30 @@
 //         break;
 // }
 
-// function hii() {
-//     document.getElementById("hi").innerHTML = Date();
-// }
+function hii() {
+    document.getElementById("hi").innerHTML = Date();
+}
 
-// let btn = document.getElementById("btn");
-// let onbtn = document.getElementById("onbtn");
-// let offbtn = document.getElementById("offbtn");
+let btn = document.getElementById("btn");
+let onbtn = document.getElementById("onbtn");
+let offbtn = document.getElementById("offbtn");
 
-// onbtn.addEventListener("click", function () {
-//     btn.classList.add("bg_yellow")
-// })
+onbtn.addEventListener("click", function () {
+    btn.classList.add("bg_yellow")
+})
 
-// offbtn.addEventListener("click", function () {
-//     btn.classList.remove("bg_yellow")
-// })
+offbtn.addEventListener("click", function () {
+    btn.classList.remove("bg_yellow")
+})
 
-// function myname() {
-//     var p = document.getElementById("pwds")
-//     if (p.type === "password") {
-//         p.type = "text";
-//     } else {
-//         p.type = "password";
-//     }
-// }
+function myname() {
+    var p = document.getElementById("pwds")
+    if (p.type === "password") {
+        p.type = "text";
+    } else {
+        p.type = "password";
+    }
+}
 // var a = [1, 3, 4, 5, 7, 3, 7, 4, 3, 2]
 // var b = a.filter((e) => e < 2)
 // console.log(b);
