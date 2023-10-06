@@ -168,30 +168,30 @@ switch (b = 3, b = 4) {
         break;
 }
 
-function hii() {
-    document.getElementById("hi").innerHTML = Date();
-}
+// function hii() {
+//     document.getElementById("hi").innerHTML = Date();
+// }
 
-let btn = document.getElementById("btn");
-let onbtn = document.getElementById("onbtn");
-let offbtn = document.getElementById("offbtn");
+// let btn = document.getElementById("btn");
+// let onbtn = document.getElementById("onbtn");
+// let offbtn = document.getElementById("offbtn");
 
-onbtn.addEventListener("click", function () {
-    btn.classList.add("bg_yellow")
-})
+// onbtn.addEventListener("click", function () {
+//     btn.classList.add("bg_yellow")
+// })
 
-offbtn.addEventListener("click", function () {
-    btn.classList.remove("bg_yellow")
-})
+// offbtn.addEventListener("click", function () {
+//     btn.classList.remove("bg_yellow")
+// })
 
-function myname() {
-    var p = document.getElementById("pwds")
-    if (p.type === "password") {
-        p.type = "text";
-    } else {
-        p.type = "password";
-    }
-}
+// function myname() {
+//     var p = document.getElementById("pwds")
+//     if (p.type === "password") {
+//         p.type = "text";
+//     } else {
+//         p.type = "password";
+//     }
+// }
 // var a = [1, 3, 4, 5, 7, 3, 7, 4, 3, 2]
 // var b = a.filter((e) => e < 2)
 // console.log(b);
@@ -263,25 +263,37 @@ let queen = [1, 3, 4, 6, 8, 4, 3, 2];
 let king = queen.find((e) => e > 5);
 console.log(king);
 
-//every(); =🤣😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂//
-
-
-//sort();
+//sort(); arrange no. wise
 let suga = [1, 2, 3, 2, 4, 2, 4, 2, 4, 8, 2, 4, 5, 5, 3];
 let proud = suga.sort();
 console.log(suga);
 
-//slice();
+//slice(); print a no by index no.
 let taehyung = [1, 4, 3, 6, 4, 3, 8, 6, 34];
 let jungkookie = taehyung.slice(3, 7);
 console.log(jungkookie);
 
 //splice();
-let unique = []
+let unique = [1, 2, 6, 7, 5, 8]
+unique.splice(4, 0, 3);
+console.log(unique);
 
+//square no.
+for (let a = 0; a <= 50; a++) {
+    console.log(Math.pow(a, 2));
+}
 
-//foreach();
-let v = [1, 3, 2, 4, 5, 3, 5];
-v.forEach((e) => {
-    console.log(e * e);
-});
+// two digit
+let k = 12;
+let h = k.toPrecision().length;
+console.log(h);
+
+//with if else
+let r = 1234;
+let o = r.toPrecision().length;
+console.log(o)
+if (o == 2) {
+    console.log(true)
+} else if (o !== 2) {
+    console.log(false)
+}
